@@ -3,32 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name</title>
+  <title>Joyce Haji | Digital Creator</title>
+
+  <!-- Facebook Embed Script -->
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0">
+  </script>
 
   <style>
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: #f4f6f8;
+      background-color: #f5f7fa;
       color: #1f2937;
       line-height: 1.6;
     }
 
     header {
-      background: #0f172a;
-      color: white;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
       padding: 80px 20px;
       text-align: center;
     }
 
     header h1 {
-      font-size: 40px;
+      font-size: 42px;
       margin-bottom: 10px;
     }
 
     header p {
       font-size: 18px;
-      opacity: 0.9;
+      color: #6b7280;
     }
 
     section {
@@ -40,27 +45,21 @@
     h2 {
       font-size: 28px;
       margin-bottom: 20px;
-      color: #0f172a;
     }
 
     .videos {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 24px;
-    }
-
-    iframe {
-      width: 100%;
-      height: 220px;
-      border-radius: 10px;
-      border: none;
     }
 
     footer {
       text-align: center;
       padding: 40px 20px;
-      background: #e5e7eb;
+      background: #ffffff;
+      border-top: 1px solid #e5e7eb;
       font-size: 14px;
+      color: #6b7280;
     }
   </style>
 </head>
@@ -68,32 +67,44 @@
 <body>
 
   <header>
-    <h1>Your Name</h1>
-    <p>Professional title · Creator · Specialist</p>
+    <h1>Joyce Haji</h1>
+    <p>Digital Creator</p>
   </header>
 
   <section>
-    <h2>About Me</h2>
+    <h2>About</h2>
     <p>
-      Write a short professional summary here. Explain who you are,
-      what you do, and what kind of work or content you create.
+      I’m Joyce Haji, a digital creator sharing engaging video content
+      across social platforms. My work focuses on creativity, storytelling,
+      and building meaningful connections through digital media.
     </p>
   </section>
 
   <section>
     <h2>Featured Videos</h2>
+
     <div class="videos">
+      <!-- Replace the URLs below with your Facebook video links -->
 
-      <!-- Replace VIDEO_ID with your YouTube or Vimeo IDs -->
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+      <div class="fb-video"
+           data-href="https://www.facebook.com/YOUR_PAGE/videos/VIDEO_ID_1/"
+           data-width="320"
+           data-show-text="false"></div>
 
+      <div class="fb-video"
+           data-href="https://www.facebook.com/YOUR_PAGE/videos/VIDEO_ID_2/"
+           data-width="320"
+           data-show-text="false"></div>
+
+      <div class="fb-video"
+           data-href="https://www.facebook.com/YOUR_PAGE/videos/VIDEO_ID_3/"
+           data-width="320"
+           data-show-text="false"></div>
     </div>
   </section>
 
   <footer>
-    © 2026 Your Name · All rights reserved
+    © 2026 Joyce Haji · All rights reserved
   </footer>
 
 </body>
